@@ -13,3 +13,5 @@ d==5 ## d와 5가 같으면 TRUE임
 condi <- d > 5 & d < 8 ## 조건에 변수를 저장함
 
 d[condi] ## 조건에 맞는 값들을 출력함
+
+sum[condi] ## sum[condi]는 답이 나오지 않지만 sum(condi)는 2라는 값이 도출됨
