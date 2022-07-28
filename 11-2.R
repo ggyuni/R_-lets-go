@@ -1,4 +1,4 @@
-head('C:/Rworks') ## 작업 폴더 저장
+setwd('C:/Rworks') ## 작업 폴더 지정
 
 air <- read.csv('airquality.csv', header=T) ## .csv 파일 읽기
 ## head('C:/Rworks') 실행 파일 없이 보려면 air <- read.csv('C:/Rworks/airquality.csv', header=T)을 실행하면 됨!
