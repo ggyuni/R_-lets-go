@@ -10,10 +10,10 @@ for(i in 1:20) { ##1 부터 20까지의 반복
 } ## 결과로 IF문을 만족하는 짝수들만 출력이 됨
 
 
-num <- 5
-for(i in 1:num){
-  for(j in 1:num){
-    if(i >= j) cat("*")
+num <- 5 ## num에 5를 저장함
+for(i in 1:num){ ## i에 대해 1에서 5까지를 반복함
+  for(j in 1:num){ ## j에 대해 1에서 5까지 반복함
+    if(i >= j) cat("*") ## i가 j보다 클때 *을 연속으로 출력
   }
-  cat("\n")
+  cat("\n") ##n(5)줄을 표기함
 }
