@@ -10,4 +10,10 @@ for(i in 1:20) { ##1 부터 20까지의 반복
 } ## 결과로 IF문을 만족하는 짝수들만 출력이 됨
 
 
-for(i in 1:5)
+num <- 5
+for(i in 1:num){
+  for(j in 1:num){
+    if(i >= j) cat("*")
+  }
+  cat("\n")
+}
